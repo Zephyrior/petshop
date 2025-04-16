@@ -16,7 +16,7 @@ public class Pet {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    private String nome;
+    private String name;
     private String type;
     private String description;
     private int yearOfBirth;

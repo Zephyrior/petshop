@@ -14,4 +14,5 @@ public class PetResponse {
     private String type;
     private String description;
     private int yearOfBirth;
+    private Boolean isResponse = true;
 }
